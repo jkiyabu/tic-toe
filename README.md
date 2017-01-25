@@ -20,10 +20,13 @@ _Does not require a server or setting up a database._
 * #2 The program should insert an x when a square is clicked.
   * Input Example: click
   * Output Example: X
-* #3 If an X was inserted on previous turn, an O should be inserted on next turn.
+* #3 The program doesn't allow for more than one click per square.
+  * Input Example: click
+  * Output Example: That square is already taken
+* #4 If an X was inserted on previous turn, an O should be inserted on next turn.
   * Input Example: click
   * Output Example: O
-* #4 The program recognizes three X's or three O's in a row and declares winner.
+* #5 The program recognizes three X's or three O's in a row and declares winner.
   * Input Example: XXX
   * Output Example: X is the winner
 
