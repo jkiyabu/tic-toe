@@ -10,9 +10,10 @@
   </head>
   <body>
     <div class="container">
-      <div id="message"></div>
-      <h1>Tic Tac Toe</h1>
-      <table border="1">
+      <div class="jumbotron">
+        <h1>Tic Tac Toe</h1>
+      </div>
+      <table id="board" border="1">
         <tr>
           <td class="square" id="space1" onclick="nextmove(this)"></td>
           <td class="square" id="space2" onclick="nextmove(this)"></td>
@@ -30,8 +31,12 @@
         </tr>
       </table>
       <br>
-      <button id="start"class="btn btn-primary">Start</button>
-      <button id="reset" class="btn btn-success">Reset</button>
+      <div class="buttoncenter">
+        <button id="start"class="btn btn-primary">Start</button>
+        <button id="reset" class="btn btn-success">Reset</button>
+      </div>
+      <br>
+      <div id="message"></div>
     </div>
   </body>
 </html>
